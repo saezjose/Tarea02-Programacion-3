@@ -1,5 +1,12 @@
 # main.py
 
+#para ejecutar la fast api utiliza#
+
+#python -m uvicorn main:app --reload#
+
+#en http://localhost:8000/docs #
+
+
 from fastapi import FastAPI, HTTPException
 from database import engine
 from models import Base
